@@ -10,7 +10,8 @@ authors = [ { name = "Konstantinos Christakos", email = "konstantinosc@met.no"},
 urls = {homepage = "https://github.com/MET-OM/dnora", download = "https://github.com/MET-OM/dnora"}
 requires-python = ">=3.9, <3.11"
 dependencies = [
-    "cdsapi>=0.7.6",
+    "dnora>=2.0.4",
+    "cdsapi>=0.7.6"
 ]
 readme = "README.md"
 license = {file = "LICENSE"}
